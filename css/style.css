@@ -77,6 +77,15 @@ img:hover {
   padding: 10px 15px;
 }
 
+.contact {
+	margin-bottom: 20px;
+}
+
+.bottom {
+	border-top: 1px solid gray;
+	margin-top: 10px;
+}
+
 .main-nav a {
 	font-size: .95em;
 	color: #3acec2;
@@ -94,8 +103,7 @@ img:hover {
   padding-bottom: .5em;
 }
 
-.hero,
-.main-footer {
+.hero {
   text-align: center;
 }
 
@@ -112,12 +120,7 @@ img:hover {
   padding-left: 1em;
 }
 
-.main-footer {
-	background: #fff;
-	padding: 2em 0;
-	margin-top: 30px;
-	display: inline;
-}
+
 
 /* ---- Elements ---- */
 
@@ -150,6 +153,15 @@ img:hover {
     float: left;
   }
 
+	.container-name {
+		float: left;
+		width: 50%;
+	}
+
+	.container-hero {
+		float: right;
+		width: 50%;
+	}
 
 	/* ---- Float clearfix ---- */
 
@@ -175,11 +187,29 @@ img:hover {
     text-align: center;
   }
 
+	.main-nav {
+    float: right;
+  }
+
+  .main-nav li {
+    float: left;
+  }
+
 	.item {
 		float: left;
 		width: calc(33% - 20px);
 		margin: 10px;
 
+	}
+
+	.container-name {
+		float: left;
+		width: 50%;
+	}
+
+	.container-hero {
+		float: right;
+		width: 50%;
 	}
 
 }
