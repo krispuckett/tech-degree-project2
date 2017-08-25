@@ -28,13 +28,9 @@ name{
 
 h2,
 h3 {
+	font-size: 18px;
 	color: #093a58;
 	font-family: 'Abril Fatface', serif;
-}
-
-h2,
-h3 {
-	margin-top: 0;
 }
 
 a {
